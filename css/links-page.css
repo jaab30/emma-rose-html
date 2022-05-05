@@ -1,0 +1,85 @@
+
+.watermark-main {
+    width: 150px;
+  }
+  
+  .link-btn {
+    background-color: #f18a83;
+  }
+  
+  .btn-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .btn-icon {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    opacity: .6;
+    font-size: 1.2em;
+  }
+  
+  .btn-img {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 30px;
+    opacity: .8;
+  }
+  
+  a {
+    /* color: white; */
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: .8;
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
+  
+  .icon-display {
+    color: #f18a83;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .text-main {
+    margin: 20px 0 30px;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .logo-main {
+      width: 300px
+    }
+    .text-main {
+      margin: 10px 0 20px;
+      font-size: 20px;
+    }
+    .icon-display {
+      font-size: .7em;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .logo-main {
+      width: 200px
+    }
+    .text-main {
+      margin: 10px 0 10px;
+      font-size: 15px;
+    }
+    .icon-display {
+      font-size: .5em;
+      margin: 5px;
+    }
+  }
+  @media screen and (max-width: 220px) {
+    .logo-main {
+      width: 150px
+    }
+  }
+  
