@@ -30,16 +30,19 @@
   
   a {
     /* color: white; */
+    color: #f18a83;
     text-decoration: none;
   }
   a:visited {
     text-decoration: none;
   }
   a:hover {
+    color: #f18a83;
     opacity: .8;
     text-decoration: none;
   }
   a:active {
+    color: #fa6258;
     text-decoration: none;
   }
   
